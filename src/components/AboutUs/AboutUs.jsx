@@ -2,6 +2,7 @@ import React from "react";
 import "./AboutUs.scss";
 import about01 from "../../assets/images/about1.jpg";
 import { TbPointFilled } from "react-icons/tb";
+import { GoPaperAirplane } from "react-icons/go";
 
 const AboutUs = () => {
   return (
@@ -84,18 +85,33 @@ const AboutUs = () => {
             </div>
             <div className="qualities">
               <div className="item">
-                <TbPointFilled className="item-icon" />
+                <div className="icon-container">
+                  <TbPointFilled className="item-icon" />
+                </div>
                 <p className="detail">
-                  <span className="point">Collaboration:</span> Parce que vous
+                  <span className="point">Rapidité: </span> Parce que vous
                   compter à nos yeux, notre but est vous accompagner dans toutes
                   vos démarches, à chaque étape jusqu'à la réalisation de votre
                   projet d'immigration
                 </p>
               </div>
               <div className="item">
-                <TbPointFilled className="item-icon" />
+                <div className="icon-container">
+                  <TbPointFilled className="item-icon" />
+                </div>
                 <p className="detail">
-                  <span className="point">Collaboration:</span> Parce que vous
+                  <span className="point">Transparence: </span> Parce que vous
+                  compter à nos yeux, notre but est vous accompagner dans toutes
+                  vos démarches, à chaque étape jusqu'à la réalisation de votre
+                  projet d'immigration
+                </p>
+              </div>
+              <div className="item">
+                <div className="icon-container">
+                  <TbPointFilled className="item-icon" />
+                </div>
+                <p className="detail">
+                  <span className="point">Efficacité: </span> Parce que vous
                   compter à nos yeux, notre but est vous accompagner dans toutes
                   vos démarches, à chaque étape jusqu'à la réalisation de votre
                   projet d'immigration

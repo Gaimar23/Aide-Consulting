@@ -11,7 +11,8 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 30px;
-        margin-top: 50px;
+        margin-top: 80px;
+        padding-bottom: 110px;
 
         .left{
             .image-container{
@@ -117,6 +118,7 @@
                 .sub-title{
                     font-size: 37px;
                     margin-bottom: 20px;
+                    color: #00185e;
                 }
             }
 
@@ -130,8 +132,9 @@
 
                     .first,.second{
                         font-size: 15px;
-                        color: gray;
-                        font-weight: 300;
+                        // opacity: 0.8;
+                        font-weight: 400;
+                        color: #242323;
                     }
                 }
 
@@ -145,15 +148,47 @@
                         align-items: flex-start;
                         gap: 10px;
 
-                        .item-icon{
-                            width: 30px;
-                            height: 30px;
+                        .icon-container{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            position: relative;
+                            margin-top: 3px;
+                            
+
+
+                            .item-icon{
+                                width: 20px;
+                                height: 20px;
+                                // color: #0050d7;
+                                color: #bef1ff;
+                            }
+
+                            &::before{
+                                content: "";
+                                width: 10px;
+                                height: 10px;
+                                padding: 2px;
+                                background-color: #0050d7;
+                                position: absolute;
+                                left: 40%;
+                                top: 50%;
+                                transform: translate(-50%,-50%);
+                                z-index: -1;
+                                border-radius: 50%;
+                            }
+    
                         }
 
                         .detail{
-
+                            font-weight: 400;
+                            // opacity: 0.8;
+                            // color: #4d5693;
+                            color: #242323;
                             .point{
-                                font-weight: 700;
+                                font-weight: 600;
+                                color: #00185e;
+                                // opacity: 1 !important;
                             }
                         }
                     }
