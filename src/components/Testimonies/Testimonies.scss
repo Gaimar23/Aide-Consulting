@@ -1,0 +1,100 @@
+.testimonies-container{
+    // background: linear-gradient(to right, #000e9c, #0050d7) 0% 0% no-repeat;
+    background: white;
+    display: flex;
+    justify-content: center;
+
+    .sub-container{
+        max-width: 1366px;
+        width: 80%;
+        margin-top: 50px;
+        margin-bottom: 30px;
+
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        gap: 20px;
+
+        .left{
+
+            .card-container{
+
+                .item{
+                    width: 450px;
+                    height: 280px;
+                    padding: 25px;
+                    padding-left: 55px;
+                    background-color: #f5f5fb;
+
+                    .identification{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        // padding: 10px;
+
+                        .name-country{
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .right{
+
+            place-content: center;
+
+            .head{
+
+                .title-container{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    margin-bottom: 10px;
+
+                    .slash{
+                        // display: inline-block;
+                        .one,.two{
+                            width: 100px;
+                            height: 2px;
+                            background-color: #0050d7;
+                            display: block;
+                        }
+
+                        .one{
+                            width: 50%;
+                            margin: 0 0 8px auto;
+                        }
+
+                        
+                    }
+
+                    .title{
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+                }
+
+                .sub-title{
+                    font-size: 37px;
+                    margin-bottom: 20px;
+                    color: #00185e;
+                }
+            }
+
+            .bottom{
+
+                .detail,.detail-two{
+                    // margin-bottom: 10px;
+                    color: #242323;
+                }
+
+                .detail{
+                    margin-bottom: 10px;
+                }
+
+
+            }
+
+        }
+    }
+}
