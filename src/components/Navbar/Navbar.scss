@@ -8,5 +8,16 @@
         max-width: 1366px;
         width: 80%;
 
+        .first{
+            display: flex;
+            align-items: center;
+
+            .logo-container{
+
+                img{
+                    width: 50px;
+                }
+            }
+        }
     }
 }

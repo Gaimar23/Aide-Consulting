@@ -20,7 +20,7 @@ const Hero = () => {
         <div className="middle">
           <div className="left">
             <h1 className="title">
-              L'assurance d'un projet d'immigration réussie avec
+              L'assurance d'un projet d'immigration réussie avec aide consulting
             </h1>
             <div className="archievements">
               <div className="counter-container">
