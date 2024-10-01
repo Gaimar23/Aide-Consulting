@@ -1,0 +1,164 @@
+.about-us-container{
+    // background: white;
+    display: flex;
+    justify-content: center;
+
+
+    .about-us{
+        max-width: 1366px;
+        width: 85%;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        margin-top: 50px;
+
+        .left{
+            .image-container{
+                width: 600px;
+                height: 500px;
+                position: relative;
+
+                img.first{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                    border-radius: 0 50% 50% 0;
+                    z-index: -200;
+                }
+
+                .hours-invested{
+                    position: absolute;
+                    left: -5px;
+                    top: -25px;
+                    background-color: #f5f5fb;
+                    border-radius: 60px;
+
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                    padding: 10px 15px;
+                }
+
+                .years-of-experience{
+                    position: absolute;
+                    right: 15px;
+                    bottom: -5px;
+                    background-color: #f5f5fb;
+                    border-radius: 60px;
+
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                    padding: 10px 15px;
+
+                }
+
+                img.second{
+                    width: 450px;
+                    height: 350px;
+                    object-fit: cover;
+                    border-radius: 50% 0 50% 50%;
+                    position: absolute;
+                    left: -10px;
+                    bottom: -180px;
+                    z-index: 0;
+
+                    &::after{
+                        content: "SSSSSS";
+                        min-width: 200px;
+                        min-height: 200px;
+                        background: green;
+                        padding: 50px;
+                        position: absolute;
+                        left: 150px;
+                        top: 100px;
+                        z-index: 1000;
+                    }
+
+                }
+            }
+        }
+
+        .right{
+
+            .head{
+
+                .title-container{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    margin-bottom: 10px;
+
+                    .slash{
+                        // display: inline-block;
+                        .one,.two{
+                            width: 100px;
+                            height: 2px;
+                            background-color: #0050d7;
+                            display: block;
+                        }
+
+                        .one{
+                            width: 50%;
+                            margin: 0 0 8px auto;
+                        }
+
+                        
+                    }
+
+                    .title{
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+                }
+
+                .sub-title{
+                    font-size: 37px;
+                    margin-bottom: 20px;
+                }
+            }
+
+            .bottom{
+
+                .desc{
+                    display: flex;
+                    flex-flow: column;
+                    gap: 15px;
+                    margin-bottom: 15px;
+
+                    .first,.second{
+                        font-size: 15px;
+                        color: gray;
+                        font-weight: 300;
+                    }
+                }
+
+                .qualities{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    .item{
+                        display: flex;
+                        align-items: flex-start;
+                        gap: 10px;
+
+                        .item-icon{
+                            width: 30px;
+                            height: 30px;
+                        }
+
+                        .detail{
+
+                            .point{
+                                font-weight: 700;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

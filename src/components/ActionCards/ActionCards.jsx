@@ -3,6 +3,9 @@ import "./ActionCards.scss";
 import { PiStudentFill } from "react-icons/pi";
 import { RiWhatsappFill } from "react-icons/ri";
 import { IoMailUnread } from "react-icons/io5";
+import { FaPeopleGroup } from "react-icons/fa6";
+import { FaPeoplePulling } from "react-icons/fa6";
+import { FaHandshakeSimple } from "react-icons/fa6";
 
 const ActionCards = () => {
   return (
@@ -10,7 +13,7 @@ const ActionCards = () => {
       <div className="action-cards">
         <div className="card">
           <div className="head">
-            <PiStudentFill className="icon" />
+            <FaPeopleGroup className="icon" />
             <p className="title">Une expertise en immigration</p>
           </div>
           <div className="bottom">
@@ -27,8 +30,8 @@ const ActionCards = () => {
         </div>
         <div className="card">
           <div className="head">
-            <PiStudentFill className="icon" />
-            <p className="title">Une expertise en immigration</p>
+            <FaPeoplePulling className="icon" />
+            <p className="title">Accompagnement en temps réel</p>
           </div>
           <div className="bottom">
             <p className="desc">
@@ -44,8 +47,8 @@ const ActionCards = () => {
         </div>
         <div className="card">
           <div className="head">
-            <PiStudentFill className="icon" />
-            <p className="title">Une expertise en immigration</p>
+            <FaHandshakeSimple className="icon" />
+            <p className="title">Prendre rendez-vous</p>
           </div>
           <div className="bottom">
             <p className="desc">

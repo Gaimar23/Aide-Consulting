@@ -3,6 +3,7 @@ import "./Immigration.scss";
 import Hero from "../../components/Hero/Hero";
 import Navbar from "../../components/Navbar/Navbar";
 import ActionCards from "../../components/ActionCards/ActionCards";
+import AboutUs from "../../components/AboutUs/AboutUs";
 
 const Immigration = () => {
   return (
@@ -10,6 +11,7 @@ const Immigration = () => {
       <Navbar />
       <Hero />
       <ActionCards />
+      <AboutUs />
     </div>
   );
 };
