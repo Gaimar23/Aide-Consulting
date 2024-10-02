@@ -224,7 +224,7 @@
                         .text{
                             position: absolute;
                             top: 0;
-                            left: -3px;
+                            left: -70px;
                             // background-color: white;
                             background-color: #bef1ff;
                             border-radius: 10px;
@@ -796,9 +796,9 @@
                     display: flex;
                     align-items: flex-start;
                     justify-content: center;
-                    padding-bottom: 70px;
+                    padding-bottom: 20px;
 
-                    display: none;
+                    // display: none;
     
                     .image-container{
                         position: relative;
@@ -806,11 +806,13 @@
                         .item{
     
                             img{
-                                width: 150px;
-                                height: 150px;
+                                width: 50px;
+                                height: 50px;
                                 border-radius: 50%;
-                                padding: 10px 0 0 10px;
+                                // padding: 10px 0 0 10px;
+                                padding: 0;
                                 background-color: white;
+                                border: 2px solid #bef1ff;
     
                             }
     
@@ -822,13 +824,15 @@
                                 background-color: #bef1ff;
                                 border-radius: 10px;
                                 padding: 2px 6px;
+                                display: none;
                             }
     
                             &:nth-child(2){
                                 position: absolute;
-                                bottom: -50px;
+                                bottom: 0px;
                                 // bottom: -110px;
-                                left: 130px;
+                                left: 35px;
+                                z-index: 12;
     
                                 .text{
                                     position: absolute;
@@ -846,6 +850,8 @@
                                 // position: absolute;
                                 // bottom: -100px;
                                 // left: 80px;
+                                position: relative;
+                                z-index: 10;
     
                                 .text{
                                     position: absolute;
@@ -860,9 +866,10 @@
     
                             &:nth-child(3){
                                 position: absolute;
-                                bottom: -50px;
+                                bottom: 0px;
                                 left: auto;
-                                right: 130px;
+                                right: 35px;
+                                z-index: 1;
 
                                 .text{
                                     position: absolute;

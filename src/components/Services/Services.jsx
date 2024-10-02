@@ -2,6 +2,11 @@ import React from "react";
 import "./Services.scss";
 import { MdOutlineSchool } from "react-icons/md";
 import product from "../../assets/images/1.jpg";
+import { MdOutlineWorkOutline } from "react-icons/md";
+import { FaRegHandshake } from "react-icons/fa6";
+import students from "../../assets/images/offers/students.jpg";
+import workers from "../../assets/images/offers/workers.jpg";
+import interview from "../../assets/images/offers/interview.jpg";
 
 const Services = () => {
   return (
@@ -33,7 +38,7 @@ const Services = () => {
         <div className="left">
           <div className="item">
             <div className="image-container">
-              <img src={product} alt="" />
+              <img src={students} alt="" />
               <div className="info">
                 <div className="icon-container">
                   <MdOutlineSchool className="icon" />
@@ -44,7 +49,29 @@ const Services = () => {
           </div>
           <div className="item">
             <div className="image-container">
-              <img src={product} alt="" />
+              <img src={workers} alt="" />
+              <div className="info">
+                <div className="icon-container">
+                  <MdOutlineWorkOutline className="icon" />
+                </div>
+                <div className="detail">Travail</div>
+              </div>
+            </div>
+          </div>
+          <div className="item">
+            <div className="image-container">
+              <img src={interview} alt="" />
+              <div className="info">
+                <div className="icon-container">
+                  <FaRegHandshake className="icon" />
+                </div>
+                <div className="detail">Entretien</div>
+              </div>
+            </div>
+          </div>
+          <div className="item">
+            <div className="image-container">
+              <img src={workers} alt="" />
               <div className="info">
                 <div className="icon-container">
                   <MdOutlineSchool className="icon" />
@@ -55,7 +82,7 @@ const Services = () => {
           </div>
           <div className="item">
             <div className="image-container">
-              <img src={product} alt="" />
+              <img src={students} alt="" />
               <div className="info">
                 <div className="icon-container">
                   <MdOutlineSchool className="icon" />
@@ -66,7 +93,7 @@ const Services = () => {
           </div>
           <div className="item">
             <div className="image-container">
-              <img src={product} alt="" />
+              <img src={interview} alt="" />
               <div className="info">
                 <div className="icon-container">
                   <MdOutlineSchool className="icon" />
@@ -77,29 +104,7 @@ const Services = () => {
           </div>
           <div className="item">
             <div className="image-container">
-              <img src={product} alt="" />
-              <div className="info">
-                <div className="icon-container">
-                  <MdOutlineSchool className="icon" />
-                </div>
-                <div className="detail">Etudes</div>
-              </div>
-            </div>
-          </div>
-          <div className="item">
-            <div className="image-container">
-              <img src={product} alt="" />
-              <div className="info">
-                <div className="icon-container">
-                  <MdOutlineSchool className="icon" />
-                </div>
-                <div className="detail">Etudes</div>
-              </div>
-            </div>
-          </div>
-          <div className="item">
-            <div className="image-container">
-              <img src={product} alt="" />
+              <img src={workers} alt="" />
               <div className="info">
                 <div className="icon-container">
                   <MdOutlineSchool className="icon" />

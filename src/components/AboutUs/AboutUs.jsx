@@ -1,6 +1,8 @@
 import React from "react";
 import "./AboutUs.scss";
 import about01 from "../../assets/images/about1.jpg";
+import team1 from "../../assets/images/team4.jpg";
+import team2 from "../../assets/images/team1.jpg";
 import { TbPointFilled } from "react-icons/tb";
 import { GoPaperAirplane } from "react-icons/go";
 
@@ -10,8 +12,8 @@ const AboutUs = () => {
       <div className="about-us">
         <div className="left">
           <div className="image-container">
-            <img src={about01} alt="" className="first" />
-            <img src={about01} alt="" className="second" />
+            <img src={team1} alt="" className="first" />
+            <img src={team2} alt="" className="second" />
             <div className="hours-invested">
               <span
                 style={{

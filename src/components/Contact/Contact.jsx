@@ -1,6 +1,8 @@
 import React from "react";
 import "./Contact.scss";
 import about01 from "../../assets/images/about1.jpg";
+import team3 from "../../assets/images/team5.jpg";
+import team4 from "../../assets/images/team3.jpg";
 import { RiWhatsappFill } from "react-icons/ri";
 
 const Contact = () => {
@@ -44,8 +46,8 @@ const Contact = () => {
           </div>
           <div className="right">
             <div className="image-container">
-              <img src={about01} alt="" className="first" />
-              <img src={about01} alt="" className="second" />
+              <img src={team4} alt="" className="first" />
+              <img src={team3} alt="" className="second" />
             </div>
           </div>
         </div>

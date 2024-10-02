@@ -7,6 +7,7 @@ import AboutUs from "../../components/AboutUs/AboutUs";
 import Services from "../../components/Services/Services";
 import Contact from "../../components/Contact/Contact";
 import Testimonies from "../../components/Testimonies/Testimonies";
+import Footer from "../../components/Footer/Footer";
 
 const Immigration = () => {
   return (
@@ -18,6 +19,7 @@ const Immigration = () => {
       <Services />
       <Testimonies />
       <Contact />
+      <Footer />
     </div>
   );
 };

@@ -3,6 +3,9 @@ import "./Hero.scss";
 import { GiCommercialAirplane } from "react-icons/gi";
 import { LuPlaneTakeoff } from "react-icons/lu";
 import imageHead from "../../assets/images/1.jpg";
+import family from "../../assets/images/family.jpg";
+import student from "../../assets/images/student.jpg";
+import worker from "../../assets/images/worker.jpg";
 
 const Hero = () => {
   return (
@@ -75,16 +78,16 @@ const Hero = () => {
           <div className="right">
             <div className="image-container">
               <div className="item">
-                <img src={imageHead} alt="" />
+                <img src={student} alt="" />
                 <div className="text">Visa étudiant</div>
               </div>
               <div className="item">
-                <img src={imageHead} alt="" />
+                <img src={worker} alt="" />
                 <div className="text">Visa travailleur</div>
               </div>
               <div className="item">
-                <img src={imageHead} alt="" />
-                <div className="text">Demande d'Asile</div>
+                <img src={family} alt="" />
+                <div className="text">Regroupement</div>
               </div>
             </div>
           </div>
