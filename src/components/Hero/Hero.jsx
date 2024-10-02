@@ -76,15 +76,15 @@ const Hero = () => {
             <div className="image-container">
               <div className="item">
                 <img src={imageHead} alt="" />
-                <div className="text">image 01</div>
+                <div className="text">Visa étudiant</div>
               </div>
               <div className="item">
                 <img src={imageHead} alt="" />
-                <div className="text">image 05</div>
+                <div className="text">Visa travailleur</div>
               </div>
               <div className="item">
                 <img src={imageHead} alt="" />
-                <div className="text">image 08</div>
+                <div className="text">Asile</div>
               </div>
             </div>
           </div>

@@ -10,7 +10,13 @@ const Navbar = () => {
           <div className="logo-container">
             <img src={Logo} alt="" />
           </div>
-          <div className="socials">facebook</div>
+          <ul className="links">
+            <li>Accueil</li>
+            <li>A Propos</li>
+            <li>Offres</li>
+            <li>Processus</li>
+            <li>Avis</li>
+          </ul>
         </div>
       </div>
     </div>
