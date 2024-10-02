@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.scss";
 import Logo from "../../assets/images/Logo.png";
+import { FiMenu } from "react-icons/fi";
 
 const Navbar = () => {
   return (
@@ -16,7 +17,11 @@ const Navbar = () => {
             <li>Offres</li>
             <li>Processus</li>
             <li>Avis</li>
+            <button>Démarer</button>
           </ul>
+          <div className="mobile-menu-icon">
+            <FiMenu className="menu-icon" />
+          </div>
         </div>
       </div>
     </div>

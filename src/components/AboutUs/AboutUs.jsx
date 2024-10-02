@@ -19,6 +19,7 @@ const AboutUs = () => {
                   fontWeight: "800",
                   color: "#0050d7",
                 }}
+                className="hours"
               >
                 <span
                   style={{
@@ -42,6 +43,7 @@ const AboutUs = () => {
                   fontWeight: "800",
                   color: "#0050d7",
                 }}
+                className="years"
               >
                 <span
                   style={{

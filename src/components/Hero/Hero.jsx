@@ -84,7 +84,7 @@ const Hero = () => {
               </div>
               <div className="item">
                 <img src={imageHead} alt="" />
-                <div className="text">Asile</div>
+                <div className="text">Demande d'Asile</div>
               </div>
             </div>
           </div>
