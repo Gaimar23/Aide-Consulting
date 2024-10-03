@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Hero.scss";
 import { GiCommercialAirplane } from "react-icons/gi";
 import { LuPlaneTakeoff } from "react-icons/lu";
@@ -6,8 +6,21 @@ import imageHead from "../../assets/images/1.jpg";
 import family from "../../assets/images/family.jpg";
 import student from "../../assets/images/student.jpg";
 import worker from "../../assets/images/worker.jpg";
+import { motion, useMotionValue, useTransform, animate } from "framer-motion";
 
 const Hero = () => {
+  const countA = useMotionValue(0);
+  const countB = useMotionValue(0);
+  const roundedA = useTransform(countA, Math.round);
+  const roundedB = useTransform(countB, Math.round);
+
+  useEffect(() => {
+    const animationA = animate(countA, 99, { duration: 10 });
+    const animationB = animate(countB, 350, { duration: 10 });
+
+    return animationA.stop, animationB.stop;
+  }, []);
+
   return (
     <div className="hero-container">
       <section className="hero">
@@ -40,7 +53,8 @@ const Hero = () => {
                     </svg>
                     <div className="number">
                       <h3>
-                        99<span>%</span>
+                        <motion.span>{roundedA}</motion.span>
+                        <span>%</span>
                       </h3>
                     </div>
                   </div>
@@ -60,10 +74,7 @@ const Hero = () => {
                       ></circle>
                     </svg>
                     <div className="number">
-                      <h3>
-                        {/* 99<span>%</span> */}
-                        350
-                      </h3>
+                      <motion.h3>{roundedB}</motion.h3>
                     </div>
                   </div>
                 </div>

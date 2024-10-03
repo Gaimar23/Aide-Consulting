@@ -7,7 +7,7 @@ import { RiWhatsappFill } from "react-icons/ri";
 
 const Contact = () => {
   return (
-    <div className="contact-container">
+    <div className="contact-container" id="contact-us">
       <div className="sub-contact">
         <div className="contact-head">
           <div className="slash">
@@ -38,7 +38,7 @@ const Contact = () => {
               </div>
               <div className="button-container">
                 <button type="submit">Envoyer</button>
-                <a href="">
+                <a href="https://wa.me/237698533669">
                   <RiWhatsappFill className="icon" />
                 </a>
               </div>

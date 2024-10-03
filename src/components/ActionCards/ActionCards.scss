@@ -123,6 +123,19 @@
                     gap: 20px;
                     margin-top: 10px;
                     margin-bottom: 10px;
+
+                    a{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        text-decoration: none;
+
+                        .action-icon{
+                            color: #0050d7
+                        }
+
+                    }
+
                     .action-icon{
                         cursor: pointer;
                         width: 30px;
@@ -132,10 +145,9 @@
                             color: #0050d7;
                         }
 
-                        &:last-child{
-                            color: green;
-                            // background-color: white;
-                        }
+                        // &:last-child{
+                        //     color: green;
+                        // }
                     }
 
                 }

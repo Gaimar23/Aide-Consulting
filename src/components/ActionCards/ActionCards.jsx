@@ -23,8 +23,12 @@ const ActionCards = () => {
             </p>
 
             <div className="actions">
-              <IoMailUnread className="action-icon" />
-              <RiWhatsappFill className="action-icon" />
+              <a href="#contact-us">
+                <IoMailUnread className="action-icon" />
+              </a>
+              <a href="https://wa.me/237698533669">
+                <RiWhatsappFill className="action-icon" color="green" />
+              </a>
             </div>
           </div>
         </div>
@@ -40,8 +44,12 @@ const ActionCards = () => {
             </p>
 
             <div className="actions">
-              <IoMailUnread className="action-icon" />
-              <RiWhatsappFill className="action-icon" />
+              <a href="#contact-us">
+                <IoMailUnread className="action-icon" />
+              </a>
+              <a href="https://wa.me/237698533669">
+                <RiWhatsappFill className="action-icon" color="green" />
+              </a>
             </div>
           </div>
         </div>
@@ -57,8 +65,12 @@ const ActionCards = () => {
             </p>
 
             <div className="actions">
-              <IoMailUnread className="action-icon" />
-              <RiWhatsappFill className="action-icon" />
+              <a href="#contact-us">
+                <IoMailUnread className="action-icon" />
+              </a>
+              <a href="https://wa.me/237698533669">
+                <RiWhatsappFill className="action-icon" color="green" />
+              </a>
             </div>
           </div>
         </div>
