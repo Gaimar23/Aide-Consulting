@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.scss";
-import Logo from "../../assets/images/Logo.png";
+import Logo from "../../assets/images/Logo2.png";
 import { FiMenu } from "react-icons/fi";
 
 const Navbar = () => {

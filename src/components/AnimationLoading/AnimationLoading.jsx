@@ -1,6 +1,6 @@
 import React from "react";
 import "./AnimationLoading.scss";
-import Logo from "../../assets/images/Logo.png";
+import Logo from "../../assets/images/Logo2.png";
 
 const AnimationLoading = () => {
   return (

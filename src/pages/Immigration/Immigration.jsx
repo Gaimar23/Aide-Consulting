@@ -9,6 +9,7 @@ import Contact from "../../components/Contact/Contact";
 import Testimonies from "../../components/Testimonies/Testimonies";
 import Footer from "../../components/Footer/Footer";
 import AnimationLoading from "../../components/AnimationLoading/AnimationLoading";
+import GoUp from "../../components/GoUp/GoUp";
 
 const Immigration = () => {
   const [loading, setLoading] = useState(true);
@@ -32,6 +33,7 @@ const Immigration = () => {
           <Testimonies />
           <Contact />
           <Footer />
+          <GoUp />
         </div>
       )}
     </div>
