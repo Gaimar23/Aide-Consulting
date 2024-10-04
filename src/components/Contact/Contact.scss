@@ -24,7 +24,8 @@
                 .first, .second{
                     width: 2px;
                     height: 100px;
-                    background-color: #0050d7;
+                    // background-color: #0050d7;
+                    background-color: #E30613;
 
                 }
 
@@ -34,7 +35,8 @@
             }
 
             h1.sub-title{
-                color: #00185e;
+                // color: #00185e;
+                color: #E30613;
                 font-size: 37px;
                 margin-bottom: 50px;
             }
@@ -58,7 +60,8 @@
                     flex-direction: column;
                     gap: 10px;
     
-                    border: 2px solid #000e9c;
+                    // border: 2px solid #000e9c;
+                    border: 2px solid #E30613;
                     border-radius: 8px;
                     padding: 50px;
                     width: 100%;
@@ -69,7 +72,7 @@
                         color: black;
     
                         input{
-                            border: 1px solid #000e9c;
+                            border: 1px solid #E30613;
                             padding: 10px 10px;
                             outline: none;
                             border-radius: 4px;
@@ -80,7 +83,7 @@
                         }
     
                         textarea{
-                            border: 1px solid #000e9c;
+                            border: 1px solid #E30613;
                             padding: 10px 10px;
                             outline: none;
                             border-radius: 4px;
@@ -96,8 +99,8 @@
                             padding: 8px 10px;
                             font-size: 17px;
                             outline: none;
-                            border: 2px solid #000e9c;
-                            background-color: #000e9c;
+                            border: 2px solid #E30613;
+                            background-color: #E30613;
                             color: white;
                             border-radius: 20px;
                             width: 50%;
@@ -113,7 +116,7 @@
                             .icon{
                                 width: 40px;
                                 height: 40px;
-                                color: green;
+                                color: #E30613;
                             }
     
                         }

@@ -38,7 +38,8 @@
                             background-color: #f5f5fb;
                             position: relative;
                             border-radius: 6px;
-                            box-shadow: 0 0 5px 2px #00185e77;
+                            // box-shadow: 0 0 5px 2px #00185e77;
+                            box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.425);
                             // margin: 0 50px;
         
                             .identification{
@@ -66,7 +67,8 @@
                                 .star-icon{
                                     width: 20px;
                                     height: 20px;
-                                    color: #00185e;
+                                    // color: #00185e;
+                                    color: #E30613;
                                 }
                             }
         
@@ -79,8 +81,10 @@
                                 transform: translateY(-50%);
                                 // border: 0 2px 0 0 solid #00185e;
                                 border: none;
-                                border-left: 4px solid #00185e;
-                                border-top: 4px solid #00185e;
+                                // border-left: 4px solid #00185e;
+                                // border-top: 4px solid #00185e;
+                                border-left: 4px solid black;
+                                border-top: 4px solid black;
                                 border-radius: 50%;
         
         
@@ -118,7 +122,7 @@
                         .one,.two{
                             width: 100px;
                             height: 2px;
-                            background-color: #0050d7;
+                            background-color: #E30613;
                             display: block;
                         }
 
@@ -139,7 +143,8 @@
                 .sub-title{
                     font-size: 37px;
                     margin-bottom: 20px;
-                    color: #00185e;
+                    // color: #00185e;
+                    color: #E30613;
                 }
             }
 

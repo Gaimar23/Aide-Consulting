@@ -37,12 +37,12 @@
             }
 
             &:hover{
-                background: linear-gradient(to right,#0050d7,#000e9c) 0% 0% no-repeat;
-                // background: linear-gradient(to right,#000e9c,#0050d7) 0% 0% no-repeat;
+                // background: linear-gradient(to right,#0050d7,#000e9c) 0% 0% no-repeat;
+                background: #E30613;
 
                 .head{
                     .icon{
-                        color: #bef1ff;
+                        color: white;
                     }
 
                     .title{
@@ -61,11 +61,11 @@
 
                         .action-icon{
                             &:first-child{
-                                color: #bef1ff;
+                                color: white;
                             }
 
                             &:last-child{
-                                color: #bef1ff;
+                                color: white;
                             }
                         }
                     }
@@ -97,13 +97,13 @@
                 .icon{
                     width: 100px;
                     height: 100px;
-                    color: #0050d7;
+                    color: #E30613;
                 }
 
                 .title{
                     font-size: 20px;
                     text-align: center;
-                    color: #00185e;
+                    color: #242323;
                     opacity: 0.8;
                     font-weight: 700;
                 }
@@ -142,7 +142,7 @@
                         height: 30px;
 
                         &:first-child{
-                            color: #0050d7;
+                            color: #242323;
                         }
 
                         // &:last-child{

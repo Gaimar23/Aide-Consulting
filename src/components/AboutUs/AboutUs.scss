@@ -97,7 +97,8 @@
                         .one,.two{
                             width: 100px;
                             height: 2px;
-                            background-color: #0050d7;
+                            // background-color: #0050d7;
+                            background-color: #E30613;
                             display: block;
                         }
 
@@ -118,7 +119,8 @@
                 .sub-title{
                     font-size: 37px;
                     margin-bottom: 20px;
-                    color: #00185e;
+                    // color: #00185e;
+                    color: #E30613;
                 }
             }
 
@@ -160,8 +162,8 @@
                             .item-icon{
                                 width: 20px;
                                 height: 20px;
-                                // color: #0050d7;
-                                color: #bef1ff;
+                                color: rgb(255, 255, 255);
+                                // color: #bef1ff;
                             }
 
                             &::before{
@@ -169,7 +171,8 @@
                                 width: 10px;
                                 height: 10px;
                                 padding: 2px;
-                                background-color: #0050d7;
+                                // background-color: #0050d7;
+                                background-color: #E30613;
                                 position: absolute;
                                 left: 40%;
                                 top: 50%;
@@ -187,7 +190,8 @@
                             color: #242323;
                             .point{
                                 font-weight: 600;
-                                color: #00185e;
+                                // color: #00185e;
+                                color: #E30613;
                                 // opacity: 1 !important;
                             }
                         }

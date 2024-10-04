@@ -19,7 +19,7 @@ const AboutUs = () => {
                 style={{
                   fontSize: "40px",
                   fontWeight: "800",
-                  color: "#0050d7",
+                  color: "#E30613",
                 }}
                 className="hours"
               >
@@ -34,7 +34,7 @@ const AboutUs = () => {
                 </span>
                 ,000
               </span>
-              <p style={{ color: "#0050d7", fontSize: "15px" }}>
+              <p style={{ color: "#E30613", fontSize: "15px" }}>
                 Heures investies
               </p>
             </div>
@@ -43,7 +43,7 @@ const AboutUs = () => {
                 style={{
                   fontSize: "40px",
                   fontWeight: "800",
-                  color: "#0050d7",
+                  color: "#E30613",
                 }}
                 className="years"
               >
@@ -57,7 +57,7 @@ const AboutUs = () => {
                   +15
                 </span>
               </span>
-              <p style={{ color: "#0050d7", fontSize: "15px" }}>
+              <p style={{ color: "#E30613", fontSize: "15px" }}>
                 ans d'expérience
               </p>
             </div>
