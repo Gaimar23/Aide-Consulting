@@ -66,7 +66,6 @@ const Testimonies = () => {
                     Ma procédure a pris du temps, l'équipe de AIDE CONSULTING
                     m'a soutenu et guidé tout au long. Alors un grand merci à
                     AIDE CONSULTING qui m'a assité à chaque étape du processus.
-                    AIDE CONSULTING t'es le meilleur
                   </div>
                   <div className="stars">
                     <IoIosStar className="star-icon" />
