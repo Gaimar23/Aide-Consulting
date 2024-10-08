@@ -16,8 +16,9 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // return console.log(e.target[0].value);
-
+    // return toast.success("Message envoyé", {
+    //   position: "top-right",
+    // });
     emailjs
       .sendForm(
         // `${JSON.stringify(import.meta.env.MY_SERVICE_ID)}`,
