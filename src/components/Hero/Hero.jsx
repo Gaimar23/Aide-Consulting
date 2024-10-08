@@ -82,8 +82,12 @@ const Hero = () => {
               </div>
             </div>
             <div className="actions">
-              <button>Démarrer</button>
-              <button>Discuter</button>
+              <a href="#contact-us" style={{ textDecoration: "none" }}>
+                <button>Démarrer</button>
+              </a>
+              <a href="https://wa.me/237696429766">
+                <button>Discuter</button>
+              </a>
             </div>
           </div>
           <div className="right">

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.scss";
-import Logo from "../../assets/images/Logo.png";
+import Logo from "../../assets/images/Logo2.png";
 import { FaLinkedinIn } from "react-icons/fa";
 import { CgFacebook } from "react-icons/cg";
 import { RiTwitterXFill } from "react-icons/ri";
