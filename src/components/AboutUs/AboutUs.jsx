@@ -77,14 +77,15 @@ const AboutUs = () => {
           <div className="bottom">
             <div className="desc">
               <p className="first">
-                Parce que vous compter à nos yeux, notre but est vous
+                Parce que vous compter à nos yeux, notre mission est de vous
                 accompagner dans toutes vos démarches, à chaque étape jusqu'à la
                 réalisation de votre projet d'immigration
               </p>
               <p className="second">
-                Parce que vous compter à nos yeux, notre but est vous
-                accompagner dans toutes vos démarches, à chaque étape jusqu'à la
-                réalisation de votre projet d'immigration
+                Depuis plusieurs années, nous faisons le bonheur de plusieurs
+                voyageurs: familles, particuliers et entreprises. Rejoignez les
+                rangs de centaines de leaders qui nous ont fait confiance et ont
+                vu leur projets d'immigration se réaliser.
               </p>
             </div>
             <div className="qualities">
@@ -92,33 +93,54 @@ const AboutUs = () => {
                 <div className="icon-container">
                   <TbPointFilled className="item-icon" />
                 </div>
-                <p className="detail">
+                {/* <p className="detail">
                   <span className="point">Rapidité: </span> Parce que vous
                   compter à nos yeux, notre but est vous accompagner dans toutes
                   vos démarches, à chaque étape jusqu'à la réalisation de votre
                   projet d'immigration
+                </p> */}
+                <p className="detail">
+                  <span className="point">Rapidité: </span> De part notre
+                  expertise, nous naviguons aisément dans les rouages de
+                  l'immigration pour vous simplifier les démarches
+                  administratives. Vous pouvez déjà faire vos valises, votre vol
+                  est assuré.
                 </p>
               </div>
               <div className="item">
                 <div className="icon-container">
                   <TbPointFilled className="item-icon" />
                 </div>
-                <p className="detail">
+                {/* <p className="detail">
                   <span className="point">Transparence: </span> Parce que vous
                   compter à nos yeux, notre but est vous accompagner dans toutes
                   vos démarches, à chaque étape jusqu'à la réalisation de votre
                   projet d'immigration
+                </p> */}
+                <p className="detail">
+                  <span className="point">Transparence: </span> Avec le soutien
+                  de nos partenaires étrangers, nous avons accès à des sources
+                  des sources de documentation authentiques et à des
+                  organisations de traitement de visas fiables. Vous pouvez
+                  suivre la progression de votre démarche en temps réel.
                 </p>
               </div>
               <div className="item">
                 <div className="icon-container">
                   <TbPointFilled className="item-icon" />
                 </div>
-                <p className="detail">
+                {/* <p className="detail">
                   <span className="point">Efficacité: </span> Parce que vous
                   compter à nos yeux, notre but est vous accompagner dans toutes
                   vos démarches, à chaque étape jusqu'à la réalisation de votre
                   projet d'immigration
+                </p> */}
+                <p className="detail">
+                  <span className="point">Efficacité: </span> Nous disposons
+                  d'une équipe proactive, professionnelle et disponible 24h/24.
+                  Chaque projet de voyage entamé est un futur visa en main !
+                  Tous ceux qui sont passées par Aide Consulting en sont sortis
+                  satisfait.
                 </p>
               </div>
             </div>

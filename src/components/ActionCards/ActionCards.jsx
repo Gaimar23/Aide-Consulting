@@ -26,7 +26,7 @@ const ActionCards = () => {
               <a href="#contact-us">
                 <IoMailUnread className="action-icon" />
               </a>
-              <a href="https://wa.me/237698533669">
+              <a href="https://wa.me/237696429766">
                 <RiWhatsappFill className="action-icon" />
               </a>
             </div>
@@ -38,16 +38,19 @@ const ActionCards = () => {
             <p className="title">Accompagnement en temps réel</p>
           </div>
           <div className="bottom">
+            {/* <p className="desc">
+              Un suivi sur mesure et à chaque étape de votre procédure de
+              voyage. A nos côtés, voyager n'aura jamais été aussi facile.
+            </p> */}
             <p className="desc">
-              Nous sommes une équipe d'expert en immigration fort de plus de 10
-              ans d'expérience.
+              Un suivi sur mesure à chaque étape de votre procédure de voyage.
             </p>
 
             <div className="actions">
               <a href="#contact-us">
                 <IoMailUnread className="action-icon" />
               </a>
-              <a href="https://wa.me/237698533669">
+              <a href="https://wa.me/237696429766">
                 <RiWhatsappFill className="action-icon" />
               </a>
             </div>
@@ -59,16 +62,21 @@ const ActionCards = () => {
             <p className="title">Prendre rendez-vous</p>
           </div>
           <div className="bottom">
+            {/* <p className="desc">
+              Nos conseillers qualités sont à votre écoute pour répondre à
+              toutes vos préoccupations. Ecrivez-nous maintenant et bénéficier
+              d'une consultation gratuite !
+            </p> */}
             <p className="desc">
-              Nous sommes une équipe d'expert en immigration fort de plus de 10
-              ans d'expérience.
+              Ecrivez-nous maintenant et bénéficier d'une consultation gratuite
+              !
             </p>
 
             <div className="actions">
               <a href="#contact-us">
                 <IoMailUnread className="action-icon" />
               </a>
-              <a href="https://wa.me/237698533669">
+              <a href="https://wa.me/237696429766">
                 <RiWhatsappFill className="action-icon" />
               </a>
             </div>

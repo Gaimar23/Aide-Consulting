@@ -40,7 +40,7 @@ const Contact = () => {
               </div>
               <div className="button-container">
                 <button type="submit">Envoyer</button>
-                <a href="https://wa.me/237698533669">
+                <a href="https://wa.me/237696429766">
                   <RiWhatsappFill className="icon" />
                 </a>
               </div>
